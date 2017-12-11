@@ -1,37 +1,53 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html lang="en">
     <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110968345-1"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-110968345-1');
+        </script>
+
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <title>Eli Fieldsteel</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
         <link rel="manifest" href="site.webmanifest">
         <link rel="apple-touch-icon" href="icon.png">
         <link rel="icon" href="favicon.ico">
         <!-- Place favicon.ico in the root directory -->
 
-        <link rel="stylesheet" href="css/normalize.css">
+        <!-- <link rel="stylesheet" href="css/normalize.css"> -->
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/main.css">
     </head>
-    <body>
+    <body data-spy="scroll" data-target="#navbar-site">
         <!--[if lte IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
         
         
            
-            <header>
+            <header >
                 <div class="container">
                 <div class="row">
                 
-                <nav class="nav">
+                <nav id="navbar-site" class="nav navbar-expand-sm">
+                    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#siteNav" aria-expanded="false" aria-label="Toggle Navigation">
+                    <img class="logo" src="img/eficon-white.png" alt="ef-logo">
+                </button>
+                    <div class="collapse navbar-collapse"></div>
+                            <div id="siteNav">
                         <div class="container">
                     <div class="row justify-content-start">
-                        <div class="offset-sm-8">
-                        <a class="nav-item nav-link" href="#about">&#123;about&#125;</a>
+                        <div>
+                        <!-- <a class="nav-item nav-link" href="#about">&#123;about&#125;</a> -->
+                        <a class="nav-item nav-link" href="#about">ABOUT</a>
                     </div>  
                     <!-- col -->
                     </div>
@@ -39,18 +55,20 @@
                 </div>
                 <div class="container">
                         <div class="row">
-                            <div class="offset-sm-8">
-                        <a class="nav-item nav-link" href="#teaching">&#123;teaching&#125;</a>
+                            <div>
+                        <!-- <a class="nav-item nav-link" href="#teaching">&#123;teaching&#125;</a> -->
+                        <a class="nav-item nav-link" href="#teaching">TEACHING</a>
                             </div>
                             <!-- col -->
                         </div>
                         <!-- row -->
                 </div>
-                <!-- continer -->
+                <!-- container -->
                 <div class="container">
                     <div class="row">
-                        <div class="offset-sm-8">
-                        <a class="nav-item nav-link" href="#work">&#123;work&#125;</a>
+                        <div>
+                        <!-- <a class="nav-item nav-link" href="#work">&#123;work&#125;</a> -->
+                        <a class="nav-item nav-link" href="#work">WORK</a>
                     </div>
                     <!-- col -->
                     </div>
@@ -60,8 +78,9 @@
                 
                 <div class="container">
                         <div class="row">
-                            <div class="offset-sm-8">
-                        <a class="nav-item nav-link" href="#contact">&#123;contact&#125;</a>
+                            <div>
+                        <!-- <a class="nav-item nav-link" href="#contact">&#123;contact&#125;</a> -->
+                        <a class="nav-item nav-link" href="#contact">CONTACT</a>
                         </div>
                         <!-- col -->
                     </div>
@@ -70,7 +89,7 @@
                     <!-- container -->
                     <div class="container">
                             <div class="row">
-                                <div class="offset-sm-8">
+                                <div>
                             <a class="nav-item nav-link" href="#home"><img class="logo" src="img/eficon-white.png" alt="ef-logo"></a>
                             </div>
                             <!-- col -->
@@ -78,192 +97,343 @@
                         <!-- row -->
                     </div>
                         <!-- container -->
+                    </div>
+                    <!-- nav collapse -->
                 </nav>
-            
-            <!-- col -->
-           
-                
-            </div>
-            <!-- row -->
+                </div>
+                <!-- row -->
                 </div>
                 <!-- container -->
-            
-
-            
+            <div class="container-fluid bgimage-one" id="home">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h1 class="title">ELI FIELDSTEEL</h1>
+                    </div>
+                </div>
+            </div>
             </header>
-            <!-- <img class="img-fluid" src="img/IMG_2751.JPG"> -->
-        
-<div class="container-fluid" id="home">
-    <div class="row bgimage-one">
-            <div class="col-sm-11">
-                    
-                    <h1 class="title">ELI FIELDSTEEL</h1>
-                </div>
-                </div>
-            </div>
-     
-    
+<!-- END HEADER -->
 
-        <div class="container" id="about">
-            <div class="row">
-                <div class="col-sm-7">
-                <p class="lead float-left">
-                Dr. Eli Fieldsteel is a composer specializing in music technology with a diverse history of cross-disciplinary collaboration.
-                
-                Fieldsteel’s music and research engages with the intersection between music technology and contemporary instrumental practice, focusing on topics such as human-computer improvisation,interactivity, and generative music. 
-                
-                Fieldsteel is currently Assistant Professor of Music Composition-Theory at The University of Illinois at Urbana-Champaign, where he serves as the director of the Experimental Music Studios.<img class="block-img" src="img/IMG_2734.JPG" alt="eli-in-office">
-            </p>
-            <div class="row">
-            <div class="offset-sm-8">
-                
-            </div>
-                </div>
-            
+
+    <!-- border -->
+<div class="container" id="about">
+    <div class="row">
+        <div class="col-sm-8 border-slash text-left">
+            <h2>
+                &#47;&#47; ABOUT  
+            </h2>
         </div>
+    </div>
+</div>
+    <!-- border -->
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5">
+                <p class="lead wrapper">
+                        
+                
+                <!-- Dr. Eli Fieldsteel is a composer specializing in music technology with a diverse history of cross-disciplinary collaboration.<br><img class="bgimage-three" src="img/IMG_2734.JPG" alt="eli-in-office"> -->
+                Dr. Eli Fieldsteel is a composer specializing in music technology with a diverse history of cross-disciplinary collaboration.
+
+                <!-- Fieldsteel’s music and research engages with the intersection between music technology and contemporary instrumental practice, focusing on topics such as human-computer improvisation,interactivity, and generative music.  -->
+                
+                <!-- Fieldsteel is currently Assistant Professor of Music Composition-Theory at The University of Illinois at Urbana-Champaign, where he serves as the director of the Experimental Music Studios. -->
+                </p>
+        
+                </div>
         <!-- col -->
+        <div class="col-sm-4"><img class="bgimage-three" src="img/IMG_2734a.JPG" alt="eli-in-office"></div> 
         </div>
         <!-- row -->
+        <div class="row">
+            <div class="col-sm-8">
+                <p>
+                    Fieldsteel’s music and research engages with the intersection between music technology and contemporary instrumental practice, focusing on topics such as human-computer improvisation,interactivity, and generative music. 
+                    Fieldsteel is currently Assistant Professor of Music Composition-Theory at The University of Illinois at Urbana-Champaign, where he serves as the director of the Experimental Music Studios &#40;<a href="Fieldsteel_CurriculumVitae_2016-04-08.pdf" target="_blank">CV</a>&#41;.</p>
+            </div>
+        </div>
         </div>
         <!-- container -->
+   
+         <!-- border -->
+<div class="container">
+        <div class="row" id="teaching">
+            <div class="col-sm-8 border-slash text-left">
+                <h2>
+                    &#47;&#47; TEACHING 
+                </h2>
+            </div>
+        </div>
+    </div>
+        <!-- border -->
+<div class="container">
+            <div class="row">
+                    <div class="col-sm-8">
+                <!-- <h3>Supercollider Tutorials</h3> -->
+                
+                <p class="wrapper">
+                    <span class="lead">Supercollider Tutorials</span><br>I maintain a series of SuperCollider video tutorials intended for new users. The full series is available on <a href="https://www.youtube.com/user/elifieldsteel" target="_blank">YouTube</a>. Donations are optional but very much appreciated. If you benefit from these tutorials, please consider donating.
+                </p>
+                <!-- <h3>Twitch.tv</h3> -->
+                <img class="bgimage-two" src="img/img_3.png" alt="twitch-screenshot">
+                <p>
+                    I occasionally live stream my SuperCollider work to <a href="https://www.twitch.tv/elifieldsteel" target="_blank">Twitch</a>, either as the lecture component of one of my classes, or an in-progress musical work or programming project.<br>I typically make announcements about content and schedule on <a href="https://twitter.com/elifieldsteel" target="_blank">Twitter</a>. Topics range from introductory to more advanced ideas like pattern-based music and live coding.
+                    
+                    <!-- Starting Sept. 6, I’ll be live streaming #SuperCollider every Wednesday from 8-10pm CST. This will be the lecture component of an Audio Coding with SuperCollider course I’m teaching at the University of Illinois this semester. Topics will be very basic at first, but we’ll build toward more complex ideas as the semester progresses. -->
+                </p>
+                    </div>
+            </div>
+        </div>
 
-            <div class="row" id="teaching">
-                <h2>Supercollider Tutorials</h2>
-                <div class="bgimage-two">
-                <p>
-                    I maintain a series of SuperCollider video tutorials intended for new users. The full series is available here, and also on YouTube. Donations are optional but very much appreciated. If you benefit from these tutorials, please consider donating.
-                </p>
-                <h2>Twitch.tv</h2>
-                <p>
-                    Starting Sept. 6, I’ll be live streaming #SuperCollider every Wednesday from 8-10pm CST. This will be the lecture component of an Audio Coding with SuperCollider course I’m teaching at the University of Illinois this semester. Topics will be very basic at first, but we’ll build toward more complex ideas as the semester progresses.
-                </p>
+        <!-- border -->
+<div class="container">
+        <div class="row" id="work">
+            <div class="col-sm-8 border-slash text-left">
+                <h2>
+                    &#47;&#47; WORK  
+                </h2>
             </div>
-            </div>
-            <div class="container-fluid" id="work">
-                <h2>Work</h2>
-                <p>My work is regularly updated on my YouTube channel. Links to specific works categorized by performance type are provided below.</p>
-            </div>
+        </div>
+    </div>
+        <!-- border -->
+
+
+            <div class="container">
                 <div class="row">
-                <button class="accordion"><span class="button">Live Electroacoustic</span></button>
+                <div class="col-sm-8">
+                        <!-- <img class="bgimage-three" src="img/IMG_2650a.JPG" alt="eli-in-office">     -->
+                <p>My work is regularly updated on my <a href="https://www.youtube.com/user/elifieldsteel" target="_blank">YouTube</a> channel. Links to specific works categorized by performance type are provided below.</p>
                 
-                <div class="panel">
-                <dl>
-                        <dt><a href="https://youtu.be/HD6_0AihP3Y" target="_blank">Singularity (2014)</a></dt> <dd>for wind ensemble and stereo electronics, supported by the 2014 James E. Croft Grant for Young and Emerging Wind Band Composers. The Atlantic Coast Conference Band Director’s Association retains performance exclusivity through 2015.</dd>
-                        
-                        <dt><a href="https://youtu.be/pOWUDEiHQLw" target="_blank">Fractus V: Metal Detector (2013)</a></dt> <dd>for solo percussion and stereo electronics, commissioned by Adam Groh, Assistant Professor of Percussion at Graceland University, Lamoni IA. Premiered on March 29, 2014 at the Graceland University Iowa Day of Percussion.</dd>
-                        
-                        <dt><a href="https://soundcloud.com/emf0/colliders" target="_blank">Colliders (2013)</a></dt> <dd>laptop, MIDI controller, and any number of speakers. Performed on March 26, 2015 at the SEAMUS Conference at Virginia Polytechnic Institute and State University, Blacksburg VA.</dd>
-                        
-                        <dt><a href="https://soundcloud.com/emf0/fractus-iv-for-trombone-and" target="_blank">Fractus IV: Bonesaw (2012)</a></dt> <dd>for trombone and quadraphonic electronics, commissioned by ASCAP/SEAMUS and written for Steve Parker. Premiered on April 18, 2013 at the SEAMUS Conference at McNally Smith College of Music, St. Paul MN.</dd>
-                        
-                        <dt><a href="https://youtu.be/HjsQ8E1DNt0" target="_blank">Fractus III: Aerophoneme (2011, rev. 2012, 2014)</a></dt> <dd>for flute and quadraphonic electronics, commissioned by and written in close collaboration with Kenzie Slottow. Notable performances include Lena Kildahl, principal flute of the Aarhus Symphony Orchestra, performed at the Royal Academy of Music in Aarhus, Denmark on April 19, 2012.</dd>
-                        
-                        <dt><a href="" target="_blank">Fractus II (2010)</a></dt> <dd>for viola and stereo electronics. Premiered by Russell Podgorsek at The University of Texas at Austin Electro-Acoustic Recital Series, November 9, 2011.</dd>
-                        
-                        <dt><a href="https://soundcloud.com/emf0/fractus-i" target="_blank">Fractus I (2010)</a></dt> <dd>for trumpet in C and stereo electronics. First Prize Winner in the 2012 ASCAP/SEAMUS Student Commission Competition. Premiered by Jared Broussard at The University of Texas at Austin Electro-Acoustic Recital Series, November 19, 2010. Other notable performances include: Sam Wells, November 8, 2013 at the Electroacoustic Barn Dance at the University of Mary Washington, Fredericksburg VA; and Josh Davies, October 30, 2010 at the Electric LaTex Festival at Tulane University, New Orleans LA.</dd>
-                </dl>
-                </div>
-                <button class="accordion"><span class="button">Multimedia Collaboration</span></button>
-                <div class="panel">
-                <dl>
-                    <dt><a href="https://youtu.be/FW27Sil5DYw" target="_blank">With Oui (2015)</a></dt> <dd>for six dancers, suspended motion sensor, and realtime interactive audio and video. Premiered on May 8, 2015 at EARS, Eyes + Feet at The University of Texas at Austin.</dd>
-                    
-                    <dt><a href="" target="_blank">(De)constructed (2015)</a></dt> <dd>for three dancers and live laptop ensemble. Premiered on May 8, 2015 at EARS, Eyes + Feet at The University of Texas at Austin.</dd>
-                    
-                    <dt><a href="https://youtu.be/8_H7KxPkctQ" target="_blank">Genetic Anomalies (2014)</a></dt> <dd>for two dancers, four body sensors, and realtime interactive audio and video. Premiered on May 3, 2014 at EARS, Eyes + Feet at The University of Texas at Austin.</dd>
-                    
-                    <dt><a href="https://youtu.be/Zix4kRYe51I" target="_blank">Hypnagogic (2012)</a></dt> <dd>for four dancers, fixed audio, and video feedback. Premiered on May 4, 2012 at EARS, Eyes + Feet at The University of Texas at Austin.</dd>
-                    
-                    <dt><a href="https://youtu.be/isBWC_1N170" target="_blank">The Box (2012)</a></dt> <dd>a twelve-foot walk-in cube installation, with surround audio, immersive lighting, and floor video projection. Premiered on March 19, 2012 in the Oscar Brockett Theatre at The University of Texas at Austin.</dd>
-                    
-                    <dt><a href="https://youtu.be/OIH1Mh_gb5k" target="_blank">hEAR TOuch LISTEN (2011)</a></dt> <dd>a site-specific installation, eight contact microphone/subwoofer pairs, metal handrails. Premiered on October 19, 2011 in the Bass Concert Hall lobby at The University of Texas at Austin.</dd>
-                    
-                    <dt><a href="https://youtu.be/4fvxgUjY1Yg" target="_blank">Crush (2011)</a></dt> <dd>for six dancers, plexiglass prop, and fixed audio/video. Premiered on May 7, 2011 at EARS, Eyes + Feet at The University of Texas at Austin.</dd>
-                </dl>
-                </div>
-                <button class="accordion"><span class="button">Fixed Media</span></button>
-                <div class="panel">
-                <dl>
-                    <dt><a href="https://youtu.be/XZGnt1g5LiM" target="_blank">Ride in a Used ’98 Honda (2011)</a></dt> <dd>stereo. Commissioned by The Blanton Museum of Art at The University of Texas at Austin, premiered during an ongoing exhibit in April-May 2011.</dd>
-                    
-                    <dt><a href="https://youtu.be/l1flQwqtXas" target="_blank">Étude I (2010)</a></dt> <dd>stereo. Premiered at CLUTCH, The University of Texas at Austin on October 4, 2010.</dd>
-                    
-                    <dt><a href="https://soundcloud.com/emf0/chandelie-a-r" target="_blank">Chandelie(a)r (2010)</a></dt> <dd>stereo. Incorporated into a multimedia collaboration and premiered at EARS, Eyes + Feet at The University of Texas at Austin, May 6, 2011.</dd>
-                    
-                    <dt><a href="https://soundcloud.com/emf0/displacement" target="_blank">Displacement (2009)</a></dt> <dd>stereo. Premiered on March 27, 2009 at the Ultra Extra Arts Mix, Denton TX.</dd>
-                </dl>
-                </div>
-                <button class="accordion"><span class="button">Large Ensemble</span></button>
-                <div class="panel">
-                <dl>
-                    <dt><a href="" target="_blank">Hot Cold Ground (2012)</a></dt> <dd>for wind ensemble. Recorded by the UT Wind Ensemble on October 3, 2012.</dd>
-                
-                    <dt><a href="https://soundcloud.com/emf0/romanza" target="_blank">Romanza (2011)</a></dt> <dd>for wind ensemble. Premiered on January 30, 2014 by the CLUTCH Wind Ensemble at The University of Texas at Austin.</dd>
-                
-                    <dt><a href="https://youtu.be/DNq6n8ZhzUs" target="_blank">Cordillera (2009)</a></dt> <dd>for orchestra. Winner of the 2009-2010 UNT Symphony Orchestra Concerto Competition, premiered on March 10, 2010 at the University of North Texas, Denton TX.</dd>
-                
-                    <dt><a href="https://soundcloud.com/emf0/fantasy-for-wind-symphony" target="_blank">Fantasy for Wind Symphony (2007, rev. 2009)</a></dt> <dd>for wind ensemble. First Prize Winner in the 2009 Bandmasters’ Academic Society of Japan Competition, and Finalist in the 2010 Frank Ticheli Competition.</dd>
-                </dl>
-                </div>
-                <button class="accordion"><span class="button">Chamber Ensemble</span></button>
-                <div class="panel">
-                <dl>
-                    <dt><a href="https://youtu.be/zhlxakN8_Lg" target="_blank">No Holds Barred/No Bars Held (2011)</a></dt> <dd>for trumpet, two marimbas, and drum set. Commissioned by trumpeter Jared Broussard. Premiered on October 3, 2011 on CLUTCH, at The University of Texas at Austin.</dd>
-                        
-                    <dt><a href="" target="_blank">At The Speed Of Sound (2009)</a></dt> <dd>for brass and percussion ensemble. Winner of the 2011 Dallas Wind Symphony Fanfare Competition. Premiered on February 14, 2012 at the Meyerson Symphony Center in Dallas TX.</dd>
-                        
-                    <dt><a href="" target="_blank">Drift (2009)</a></dt> <dd>for alto flute, viola, cello and piano. Composed at The University of North Texas, Denton TX.</dd>
-                        
-                    <dt><a href="" target="_blank">Fourganic (2008)</a></dt> <dd>for percussion quartet. Composed at The University of North Texas, Denton TX.</dd>
-
-                </dl>
-                </div>
-                <button class="accordion"><span class="button">Solo Instrument</span></button>
-                <div class="panel">
-                <dl>
-                    <dt><a href="" target="_blank">Sixxis (2014)</a></dt> <dd>for solo percussion on five Sixxen bars. Commissioned by Matt Teodori of <a href="http://www.lineuponlinepercussion.org/" target="_blank">line upon line percussion</a>. Premiered on December 9, 2014 at Fusebox 60-in-Sixty, Austin TX.</dd>
-                </dl>
-                </div>
             </div>
+           <!-- END COLUMN -->
+            
+                </div>
+            
+            <div class="row">
+                
+            <div class="col-sm-6">
+
+            <div id="accordion" data-children=".item">
+                    <div class="item">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#accordion0" aria-expanded="false" aria-controls="accordion0"><h4 class="panel-title"><span class="glyphicon glyphicon-minus"></span>&#43; New Music</h4></a>
+                    <div id="accordion0" class="collapse" role="tabpanel">
+        <div class="acc-item">
+                        <dl>
+                            <dt><a href="https://www.youtube.com/watch?v=3a3Jws4OWio&t=539s" target="_blank" >Nosedive (2017)</a></dt> <dd>a composition for wind controller and keyboard controller. Both performers simultaneously control real-time synthesis algorithms running in SuperCollider. The piece is sparsely notated, providing only loose instructions for the performers and inviting long stretches of free improvisation.</dd>
+                            
+                            <dt><a href="https://www.youtube.com/watch?v=OLlGb65w3XU&t=45s" target="_blank">Invisible Ink (2016)</a></dt> <dd>an octophonic electroacoustic composition for Wacom tablet and SuperCollider, which treats the pen and tablet as a gestural controller. To generate tension and momentum, the work explores the boundaries between diegetic and non-diegetic sound, as well as linear and non-linear sound spatialization techniques.</dd>
+                            
+                            <dt><a href="https://www.youtube.com/watch?v=UpaIS-dtPXQ" target="_blank">Brain Candy (2015)</a></dt> <dd>a quadraphonic improvisation for homemade sensor gloves and SuperCollider. The sensor gloves have a light-sensitive resistor in the palm of each hand, and a 2-axis accelerometer on the back of each hand. A concealed Arduino receives sensor data and sends to SuperCollider via USB. A multi-touch controller provides additional control over global musical parameters.</dd>
+                        </dl>
+                    </div>
+                    </div>
+                    </div>
+                    <!-- accordion0 -->
+                <div class="item">
+                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#accordion1" aria-expanded="false" aria-controls="accordion1"><h4 class="panel-title"><span class="glyphicon glyphicon-minus"></span>&#43; Live Electroacoustic</h4></a>
+            <div id="accordion1" class="collapse" role="tabpanel">
+<div class="acc-item">
+                <dl>
+                    <dt><a href="https://youtu.be/HD6_0AihP3Y" target="_blank">Singularity (2014)</a></dt> <dd>for wind ensemble and stereo electronics, supported by the 2014 James E. Croft Grant for Young and Emerging Wind Band Composers. The Atlantic Coast Conference Band Director’s Association retains performance exclusivity through 2015.</dd>
+                    
+                    <dt><a href="https://youtu.be/pOWUDEiHQLw" target="_blank">Fractus V: Metal Detector (2013)</a></dt> <dd>for solo percussion and stereo electronics, commissioned by Adam Groh, Assistant Professor of Percussion at Graceland University, Lamoni IA. Premiered on March 29, 2014 at the Graceland University Iowa Day of Percussion.</dd>
+                    
+                    <dt><a href="https://soundcloud.com/emf0/colliders" target="_blank">Colliders (2013)</a></dt> <dd>laptop, MIDI controller, and any number of speakers. Performed on March 26, 2015 at the SEAMUS Conference at Virginia Polytechnic Institute and State University, Blacksburg VA.</dd>
+                    
+                    <dt><a href="https://soundcloud.com/emf0/fractus-iv-for-trombone-and" target="_blank">Fractus IV: Bonesaw (2012)</a></dt> <dd>for trombone and quadraphonic electronics, commissioned by ASCAP/SEAMUS and written for Steve Parker. Premiered on April 18, 2013 at the SEAMUS Conference at McNally Smith College of Music, St. Paul MN.</dd>
+                    
+                    <dt><a href="https://youtu.be/HjsQ8E1DNt0" target="_blank">Fractus III: Aerophoneme (2011, rev. 2012, 2014)</a></dt> <dd>for flute and quadraphonic electronics, commissioned by and written in close collaboration with Kenzie Slottow. Notable performances include Lena Kildahl, principal flute of the Aarhus Symphony Orchestra, performed at the Royal Academy of Music in Aarhus, Denmark on April 19, 2012.</dd>
+                    
+                    <dt><a href="" target="_blank">Fractus II (2010)</a></dt> <dd>for viola and stereo electronics. Premiered by Russell Podgorsek at The University of Texas at Austin Electro-Acoustic Recital Series, November 9, 2011.</dd>
+                    
+                    <dt><a href="https://soundcloud.com/emf0/fractus-i" target="_blank">Fractus I (2010)</a></dt> <dd>for trumpet in C and stereo electronics. First Prize Winner in the 2012 ASCAP/SEAMUS Student Commission Competition. Premiered by Jared Broussard at The University of Texas at Austin Electro-Acoustic Recital Series, November 19, 2010. Other notable performances include: Sam Wells, November 8, 2013 at the Electroacoustic Barn Dance at the University of Mary Washington, Fredericksburg VA; and Josh Davies, October 30, 2010 at the Electric LaTex Festival at Tulane University, New Orleans LA.</dd>
+                </dl>
+            </div>
+            </div>
+            </div>
+            <!-- accordion1 -->
+
+            <div class="item">
+                <a data-toggle="collapse" data-parent="#accordion" href="#accordion2" aria-expanded="false" aria-controls="accordion2"><h4>
+                        &#43; Multimedia Collaboration</h4>
+                </a>
+                <div id="accordion2" class="collapse" role="tabpanel">
+                    <div class="acc-item">
+                    <dl>
+                        <dt><a href="https://youtu.be/FW27Sil5DYw" target="_blank">With Oui (2015)</a></dt> <dd>for six dancers, suspended motion sensor, and realtime interactive audio and video. Premiered on May 8, 2015 at EARS, Eyes + Feet at The University of Texas at Austin.</dd>
+                        
+                        <dt><a href="" target="_blank">(De)constructed (2015)</a></dt> <dd>for three dancers and live laptop ensemble. Premiered on May 8, 2015 at EARS, Eyes + Feet at The University of Texas at Austin.</dd>
+                        
+                        <dt><a href="https://youtu.be/8_H7KxPkctQ" target="_blank">Genetic Anomalies (2014)</a></dt> <dd>for two dancers, four body sensors, and realtime interactive audio and video. Premiered on May 3, 2014 at EARS, Eyes + Feet at The University of Texas at Austin.</dd>
+                        
+                        <dt><a href="https://youtu.be/Zix4kRYe51I" target="_blank">Hypnagogic (2012)</a></dt> <dd>for four dancers, fixed audio, and video feedback. Premiered on May 4, 2012 at EARS, Eyes + Feet at The University of Texas at Austin.</dd>
+                        
+                        <dt><a href="https://youtu.be/isBWC_1N170" target="_blank">The Box (2012)</a></dt> <dd>a twelve-foot walk-in cube installation, with surround audio, immersive lighting, and floor video projection. Premiered on March 19, 2012 in the Oscar Brockett Theatre at The University of Texas at Austin.</dd>
+                        
+                        <dt><a href="https://youtu.be/OIH1Mh_gb5k" target="_blank">hEAR TOuch LISTEN (2011)</a></dt> <dd>a site-specific installation, eight contact microphone/subwoofer pairs, metal handrails. Premiered on October 19, 2011 in the Bass Concert Hall lobby at The University of Texas at Austin.</dd>
+                        
+                        <dt><a href="https://youtu.be/4fvxgUjY1Yg" target="_blank">Crush (2011)</a></dt> <dd>for six dancers, plexiglass prop, and fixed audio/video. Premiered on May 7, 2011 at EARS, Eyes + Feet at The University of Texas at Austin.</dd>
+                    </dl>
+                </div>
+                </div>
+              </div>
+              <!-- accordion2 -->
+              <div class="item">
+                <a data-toggle="collapse" data-parent="#accordion" href="#accordion3" aria-expanded="false" aria-controls="accordion3"><h4>
+                        &#43; Fixed Media</h4>
+                </a>
+                <div id="accordion3" class="collapse" role="tabpanel">
+                    <div class="acc-item">
+                    <dl>
+                        <dt><a href="https://youtu.be/XZGnt1g5LiM" target="_blank">Ride in a Used ’98 Honda (2011)</a></dt> <dd>stereo. Commissioned by The Blanton Museum of Art at The University of Texas at Austin, premiered during an ongoing exhibit in April-May 2011.</dd>
+                        
+                        <dt><a href="https://youtu.be/l1flQwqtXas" target="_blank">Étude I (2010)</a></dt> <dd>stereo. Premiered at CLUTCH, The University of Texas at Austin on October 4, 2010.</dd>
+                        
+                        <dt><a href="https://soundcloud.com/emf0/chandelie-a-r" target="_blank">Chandelie(a)r (2010)</a></dt> <dd>stereo. Incorporated into a multimedia collaboration and premiered at EARS, Eyes + Feet at The University of Texas at Austin, May 6, 2011.</dd>
+                        
+                        <dt><a href="https://soundcloud.com/emf0/displacement" target="_blank">Displacement (2009)</a></dt> <dd>stereo. Premiered on March 27, 2009 at the Ultra Extra Arts Mix, Denton TX.</dd>
+                    </dl>
+                </div>
+                </div>
+              </div>
+              <!-- accordion3 -->
+              <div class="item">
+                <a data-toggle="collapse" data-parent="#accordion" href="#accordion4" aria-expanded="false" aria-controls="accordion4"><h4>
+                        &#43; Large Ensemble</h4>
+                </a>
+                <div id="accordion4" class="collapse" role="tabpanel">
+                    <div class="acc-item">
+                    <dl>
+                        <dt><a href="" target="_blank">Hot Cold Ground (2012)</a></dt> <dd>for wind ensemble. Recorded by the UT Wind Ensemble on October 3, 2012.</dd>
+                    
+                        <dt><a href="https://soundcloud.com/emf0/romanza" target="_blank">Romanza (2011)</a></dt> <dd>for wind ensemble. Premiered on January 30, 2014 by the CLUTCH Wind Ensemble at The University of Texas at Austin.</dd>
+                    
+                        <dt><a href="https://youtu.be/DNq6n8ZhzUs" target="_blank">Cordillera (2009)</a></dt> <dd>for orchestra. Winner of the 2009-2010 UNT Symphony Orchestra Concerto Competition, premiered on March 10, 2010 at the University of North Texas, Denton TX.</dd>
+                    
+                        <dt><a href="https://soundcloud.com/emf0/fantasy-for-wind-symphony" target="_blank">Fantasy for Wind Symphony (2007, rev. 2009)</a></dt> <dd>for wind ensemble. First Prize Winner in the 2009 Bandmasters’ Academic Society of Japan Competition, and Finalist in the 2010 Frank Ticheli Competition.</dd>
+                    </dl>
+                </div>
+                </div>
+              </div>
+              <!-- accordion4 -->
+              <div class="item">
+                <a data-toggle="collapse" data-parent="#accordion" href="#accordion5" aria-expanded="false" aria-controls="accordion5"><h4>
+                        &#43; Chamber Ensemble</h4>
+                </a>
+                <div id="accordion5" class="collapse" role="tabpanel">
+                    <div class="acc-item">
+                    <dl>
+                        <dt><a href="https://youtu.be/zhlxakN8_Lg" target="_blank">No Holds Barred/No Bars Held (2011)</a></dt> <dd>for trumpet, two marimbas, and drum set. Commissioned by trumpeter Jared Broussard. Premiered on October 3, 2011 on CLUTCH, at The University of Texas at Austin.</dd>
+                            
+                        <dt><a href="" target="_blank">At The Speed Of Sound (2009)</a></dt> <dd>for brass and percussion ensemble. Winner of the 2011 Dallas Wind Symphony Fanfare Competition. Premiered on February 14, 2012 at the Meyerson Symphony Center in Dallas TX.</dd>
+                            
+                        <dt><a href="" target="_blank">Drift (2009)</a></dt> <dd>for alto flute, viola, cello and piano. Composed at The University of North Texas, Denton TX.</dd>
+                            
+                        <dt><a href="" target="_blank">Fourganic (2008)</a></dt> <dd>for percussion quartet. Composed at The University of North Texas, Denton TX.</dd>
+    
+                    </dl>
+                </div>
+                </div>
+              </div>
+              
+              <!-- accordion5 -->
+              <div class="item">
+                <a data-toggle="collapse" data-parent="#accordion" href="#accordion6" aria-expanded="false" aria-controls="accordion6"><h4>
+                        &#43; Solo Instrument</h4>
+                </a>
+                <div id="accordion6" class="collapse" role="tabpanel">
+                    <div class="acc-item">
+                    <dl>
+                        <dt><a href="" target="_blank">Sixxis (2014)</a></dt> <dd>for solo percussion on five Sixxen bars. Commissioned by Matt Teodori of <a href="http://www.lineuponlinepercussion.org/" target="_blank">line upon line percussion</a>. Premiered on December 9, 2014 at Fusebox 60-in-Sixty, Austin TX.</dd>
+                    </dl>
+                </div>
+                </div>
+              </div>
+              <!-- accordion6 -->
+            </div>
+            <!-- accordion -->
+            </div>
+            <!-- col -->
+        <div class="col-sm-4"><img class="bgimage-three" src="img/IMG_2650a.JPG" alt="eli-in-office"></div>    
+        </div>
+            <!-- row -->
+        </div>
+        <!-- end work container -->   
+
+                <!-- border -->
+<div class="container">
+        <div class="row" id="contact">
+            <div class="col-sm-8 border-slash text-left">
+                <h2>
+                    &#47;&#47; CONTACT
+                </h2>
+            </div>
+        </div>
+    </div>
+        <!-- border -->
+
+    <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-10 col-sm-7 contact">
+            <!-- <h3>For Inquiries</h3> -->
+            <p><span class="lead">For Inquiries</span> <a href="mailto:eli.fieldsteel@gmail.com">email</a> or use the contact form below. Find me online at <a href="https://twitter.com/elifieldsteel" target="_blank">Twitter</a>, <a href="https://www.youtube.com/user/elifieldsteel" target="_blank">YouTube</a>, and <a href="https://www.twitch.tv/elifieldsteel" target="_blank">Twitch</a>.</p>
         
+    <div>
+       <form class="contact-form" action="https://formspree.io/twor0004@gmail.com"
+       method="POST">
+           <fieldset class="form-group">
+               <!-- <legend>Contact</legend> -->
+               <div class="form-group">
+                   <label class="form-control-label sr-only" for="name">name</label>
+                   <input class="form-control" type="text" id="name" placeholder="name">
+               </div>
 
-        <div class="container-fluid" id="contact">
-            
-            <h2>For Inquiries</h2>
-            <p>email or use the contact form below. Find me online at Twitter, YouTube, and Twitch</p>
-            <form method="post">
-                <fieldset id="inquiry_form">
-                    <ul>
-                        <li>
-                            <input type="text" id="name" name="name" required="required" placeholder="name" />
-                        </li>
-                        <li>
-                            <input type="email" id="email" name="email" required="required" placeholder="email" />
-                        </li>
-                        <li>
-                            <textarea name="message" rows="5">message</textarea>
-                        </li>
-                    </ul>
-                </fieldset>
-            </form>
-            
-        </div>
+               <div class="form-group">
+                   <label class="form-control-label sr-only" for="email">email</label>
+                   <input class="form-control" type="email" id="email" placeholder="email">
+               </div>
 
-        <div class="container-fluid">
-            <h2>Address</h2>
-            <p>University of Illinois</p>
-            <p>114 West Nevada Street</p>
-            <p>Urbana, IL 61801</p>
+               <div class="form-group">
+                   <label class="form-control-label sr-only" for="message">message</label>
+                   <textarea class="form-control" id="message" rows="6"></textarea>
+               </div>
+           </fieldset>
+           <button class="btn" type="submit">submit</button>
+       </form>
+    </div>
+</div>
+
+        <div class="col-lg-4 col-md-11 col-sm-7">
+            <!-- <h3>Address</h3> -->
+            <p><span class="lead">Address</span><br>University of Illinois<br>1114 West Nevada Street<br>Urbana, IL 61801</p>
+            <iframe class="map" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ8WcbHxTXDIgRdWF458M9AwE&key=AIzaSyDG3o6k51VmUNuhJLGMmPtmDoN5PMiQl64" allowfullscreen></iframe>
         </div>
+        </div>
+    </div>
+
+    <div class="container copyright">
+        <div class="row">
+            <div class="col-sm-8">
+                <p class="text-center">
+                    Web design and photography by Miriam Tworek-Hofstetter.<br>Copyright 2017 Eli Fieldsteel.</p>
+            </div>
+        </div>
+    </div>
 
         <!-- Add your site or application content here -->
+        <script src="js/jquery-3.2.1.slim.min.js"></script>
+        <script src="js/tether.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
         <script src="js/vendor/modernizr-3.5.0.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
-        <script src="js/jquery-3.2.1.slim.min.js"></script>
-        <script src="js/tether.min.js"></script>
+        <script src="js/jquery.validate.min.js" type="text/javascript"></script>
+        
+        
+        
 
         <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
         <script>
@@ -271,5 +441,9 @@
             ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
         </script>
         <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
     </body>
 </html>

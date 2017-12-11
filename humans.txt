@@ -3,11 +3,11 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Miriam Tworek-Hofstetter -- designer -- @MiriamElizzie
 
 # THANKS
 
-    <name>
+    Eli Fieldsteel
 
 # TECHNOLOGY COLOPHON
 

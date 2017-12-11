@@ -12,43 +12,101 @@
 body, html {
     height: 100%;
     background-color: black;
+    position: relative;
 }
 
-html, p, nav {
+html, p, nav, dd {
     
     color: #ffffff;
     font-family: "Andale Mono", "Courier New", Courier, monospace;
     font-size: 1em;
-    line-height: 1.4;
+    line-height: 2;
+    padding-bottom: 20px;
+    padding-top: 20px
+}
+
+
+/* Links */
+
+a:link {
+    color: rgb(0, 217, 255);
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(0, 217, 255);
+}
+
+a:hover {
+    color: rgb(0, 217, 255);
+}
+
+a:active {
+    color: rgb(0, 217, 255);
+}
+
+/* .work-title {
+    font-size: 1.15rem;
+} */
+
+/* Border */
+
+.border-slash {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
 }
 
 .bgimage-one {
-    background-image: url("../img/IMG_2751.JPG");
+    background-image: url("../img/IMG_2751-dull.png");
     height: 100vh;
-    width: 130vh;
-    /* background-position: center center; */
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom: 20px;
-} 
-
-.bgimage-two {
-    background-image: url("../img/img_3.png");
-    height: 100%;
+    /* width: 130vh; */
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: 20px;
+    opacity: 1;
+} 
+
+.bgimage-two {
+    /* background-image: url("../img/img_3.png"); */
+    /* height: 100%; */
+    opacity: .5;
+    /* background-position: center center; */
+    width: 50%;
+    height: auto;
+    float: right;
+    position: sticky;
+    bottom: 100px;
+    right: 100px;
 }
 
+.bgimage-three {
+    /* background-image: url("../img/IMG_2650.jpg"); */
+    /* height: 100%; */
+    opacity: .5;
+    /* background-position: right right; */
+    width: 140%;
+    height: auto;
+    float: right;
+    position: sticky;
+    /* bottom: 100px; */
+    /* right: 100px; */
+}
+
+.over-image {
+    width: 100%
+}
+/* 
 .bgimage-three {
     background-image: url("../img/IMG_2751.JPG");
     height: 600px;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-} 
+}  */
 
-dl, dd, dt {
+dl, dd, dt, .card-header {
     color: #ffffff;
     font-family: "Andale Mono", "Courier New", Courier, monospace;
 }
@@ -63,10 +121,28 @@ h1 {
 
 h2 {
     background-color: transparent;
+    /* color: #ffffff; */
+    font-family: "Andale Mono", "Courier New", Courier, monospace;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+h3 {
+    background-color: transparent;
     color: #ffffff;
     font-family: "Andale Mono", "Courier New", Courier, monospace;
     font-size: 2rem;
+    text-decoration: none;
 }
+
+h4 {
+    background-color: transparent;
+    /* color: #ffffff; */
+    font-family: "Andale Mono", "Courier New", Courier, monospace;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
 
 .button {
     background-color: transparent;
@@ -75,27 +151,40 @@ h2 {
     font-size: 2rem;
 }
 
+.lead {
+    font-size: 1.5rem;
+
+}
+
 .logo {
     height: 150px;
     display: block;
 }
 
+.wrapper {
+    position: relative;
+}
+
 .block-img {
     
-    width: 50%;
+    width: 40%;
     height: auto;
+    float: right;
+    position: relative;
+    /* bottom: 100px;
+    right: 100px; */
 }
 
 
 
-
 nav {
-    font-size: 2rem;
- 
+    font-size: 1.9rem;
     color: white;
     position: fixed;
-    right: 0;
+    right: 50px;
     padding-top: 50px;
+    font-family: "Andale Mono", "Courier New", Courier, monospace;
+    line-height: 1.4;
 
 }
 
@@ -104,38 +193,70 @@ nav {
 }
 
 .title {
-    padding-top: 74vh;
+    padding-top: 55vh;
+    padding-left: 40px;
+    /* padding-right: 25vh; */
+    /* float: bottom; */
+    font-size: 6rem;
 }
 
 ul {
     list-style: none;
 }
 
-/* ACCORDION */
+/* Accordion */
 
-/* Style the buttons that are used to open and close the accordion panel */
-button.accordion {
-    background-color: black;
-    color: white;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    text-align: left;
+.accordion-toggle:hover {
+    text-decoration: none;
+  }
+
+.acc-item {
+    height: 250px;
+    width: 700px;
     border: none;
-    outline: none;
-    transition: 0.4s;
+    font-family: "Andale Mono", "Courier New", Courier, monospace;
+    overflow: auto;
+    background-color: rgba(24, 80, 97, 0.144);
+    padding: 10px;
 }
 
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-button.accordion.active, button.accordion:hover {
-    background-color: black;
+.item {
+    padding: 20px;
 }
 
-/* Style the accordion panel. Note: hidden by default */
-div.panel {
-    padding: 0 18px;
-    background-color: black;
-    display: none;
+/* Form */
+
+.contact {
+    padding-right: 60px;
+}
+
+.contact-form, .form-group {
+    font-family: "Andale Mono", "Courier New", Courier, monospace;
+    background-color: transparent;
+    color: black;
+}
+
+.btn {
+    font-family: "Andale Mono", "Courier New", Courier, monospace;
+    font-weight: bold;
+}
+
+/* Map */
+
+.map {
+    width: 400px;
+    height: 325px;
+    border: 0;
+}
+/* .contact-form {
+    padding-right: 50px;
+} */
+
+/* Credits and Copyright */
+
+.copyright {
+    font-size: .8rem;
+    padding: 50px;
 }
 
 /*
@@ -381,7 +502,7 @@ textarea {
     }
     pre,
     blockquote {
-        border: 1px solid #999;
+        /* border: 1px solid #999; */
         page-break-inside: avoid;
     }
 
